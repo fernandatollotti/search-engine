@@ -1,0 +1,103 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* config */
+body {
+  background: #2F2F2F;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+/* search */
+.search {
+  width: 100%;
+  max-width: 540px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px 20px;
+}
+
+.search input {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 12px;
+  flex: 1;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.search button {
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: #CECECE;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* book */
+.book {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.book .img {
+  width: 200px;
+  height: 300px;
+}
+
+.book .info {
+  margin-left: 40px;
+}
+
+.book h3 {
+  font-weight: 400;
+  line-height: 2;
+}
+
+.book h3 span {
+  font-weight: 600;
+}
+
+/* ui */
+.ui-menu {
+  top: 200px!important;
+  background: rgba(255, 255, 255, 0.2);
+  border: none!important;
+  color: #FFFFFF;
+  width: 500px;
+}
+
+.ui-menu .ui-menu-item-wrapper {
+  padding: 14px;
+}
+
+@media(max-width: 512px) {
+  .content .info {
+    margin-left: 20px;
+  }
+}
